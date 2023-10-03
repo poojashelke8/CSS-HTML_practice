@@ -52,7 +52,7 @@ a{
     margin-right: 200px;
 } */
 
-div{
+/* div{
     height:100px;
     width:100px;
     background-color: pink;
@@ -65,8 +65,8 @@ div{
     top: 30px;
     /* right:50px; */
 
-}
-#box2{
+/* } */
+/* #box2{
     position:sticky;
     top:50px;
 }
@@ -81,4 +81,38 @@ div{
     position: fixed;
     top:30px;
     right:30px;
+} */ 
+
+body{
+    text-align: center;
+}
+
+div{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    /* border:2px solid black; */
+}
+
+#container{
+    width:800px;
+    height:40px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+#box1{
+    /* background-color: pink; */
+}
+#box2{
+    /* background-color: rgb(248, 220, 136); */
+}
+#box3{
+    /* background-color: rgb(206, 214, 253); */
+}
+#box4{
+    /* background-color: rgb(206, 254, 174); */
 }
